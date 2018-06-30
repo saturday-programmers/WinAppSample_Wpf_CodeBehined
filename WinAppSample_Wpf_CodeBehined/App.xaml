@@ -1,0 +1,9 @@
+﻿<Application x:Class="WinAppSample_Wpf_CodeBehined.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WinAppSample_Wpf_CodeBehined"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
