@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAppSample_Wpf_CodeBehined", "WinAppSample_Wpf_CodeBehined.csproj", "{F9E0E230-D783-4770-9869-8F949FD53982}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAppSample_Wpf_CodeBehined", "WinAppSample_Wpf_CodeBehined\WinAppSample_Wpf_CodeBehined.csproj", "{F9E0E230-D783-4770-9869-8F949FD53982}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

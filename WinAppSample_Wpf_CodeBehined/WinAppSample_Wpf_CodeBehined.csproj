@@ -52,6 +52,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -70,7 +71,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="MainWindow.xaml">
+    <Compile Include="Service\AdditionCalculator.cs" />
+    <Compile Include="Service\CosineCalculator.cs" />
+    <Compile Include="Service\DivisionCalculator.cs" />
+    <Compile Include="Presentation\EnumExtension.cs" />
+    <Compile Include="Service\ICalculator.cs" />
+    <Compile Include="Service\MathUtil.cs" />
+    <Compile Include="Service\MultiplicationCalculator.cs" />
+    <Compile Include="Service\PowerCalculator.cs" />
+    <Compile Include="Service\SineCalculator.cs" />
+    <Compile Include="Service\SubtractionCalculator.cs" />
+    <Page Include="Presentation\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -78,7 +89,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="Business\BizMain.cs" />
+    <Compile Include="Presentation\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
